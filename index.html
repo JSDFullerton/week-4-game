@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title> Crystal Collector Game</title>
+
+	<!-- BOOTSTRAP STYLCE SHEETS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
+	<!-- CSS RESET LINK -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- JQUERY LIBRARY LINK -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- GOOGLE FONTS LINK -->
+	<link href="https://fonts.googleapis.com/css?family=Mouse+Memoirs" rel="stylesheet">
+
+
+</head>
+
+
+
+<body>
+
+<!-- HEADER -->
+
+<div class = "container">
+
+		<div class="page-header">
+  			<h1>CRYSTAL COLLECTOR -
+				<small> <p>Hi Ho, Hi Ho, it's off to work we go....</p></small></h1>
+		</div>
+	
+
+
+<!-- DIRECTIONS -->
+
+	<div class="row"> <!-- ROW #1 -->
+
+		<div class="col-md-6">
+
+			<div class="panel panel-default">
+ 				<div class="panel-heading"><strong>INSTRUCTIONS:</strong></div>
+
+  				<div class="panel-body directions">
+  					<p>Now that Snow White ran off with her Prince, the house is a mess. The other dwarves need Dopey to sell some gems to cover the house cleaning bills.</p>
+  					
+  					<p>The four gems are each worth a different amount of gold (but Dopy can't remember how much!). Click on the gems to sell them</p>
+
+  					<p>Sell enough of the gems to match the cleaning bill BUT DON'T GO OVER...Doc is a real cheapskate</p>
+
+  					<p>Each time you pay a bill you'll have to go to another jewler and the price per gem will change</p>
+  				
+  				</div> <!-- PANEL-BODY CLOSE -->
+			</div> <!-- PANEL CLOSE -->
+		</div> <!-- COL CLOSE -->
+
+
+<!--  JUMBOTRON SCOREBOARD -->
+		<div class="col-md-6">
+			<div class="jumbotron scoreboard">
+  
+  				<h1><u>SCORE BOARD</u></h1>
+		
+			</div>
+		</div>
+
+	</div> <!-- ROW 1 CLOSE -->
+
+
+
+
+
+
+<!-- CRYSTAL IMAGES -->
+	<div class="row"> <!-- ROW #2 -->
+		<div class="col-md-6">
+
+			<div class="gems">
+
+				<div class="col-md-6">
+		
+				<p>RUBY</p>
+					<img id="ruby" src="assets/images/ruby-1.jpg" class="img-circle" alt="Ruby Picture">
+
+					<p>EMERALD</p>
+					<img id="emerald" src="assets/images/emerald-1.jpg" class="img-circle" alt="Emerald Picture">
+				</div>
+
+				<div class="col-md-6">
+
+					<p>SAPHIRE</p>
+					<img id="saphire" src="assets/images/blue-Sapphire.jpg" class="img-circle" alt="Saphire Picture">
+
+					<p>DIAMOND</p>
+					<img id="diamond" src="assets/images/diamond_large.jpg" class="img-circle" alt="Diamond Picture">
+
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+<!-- JUMBOTRON TARGET RANDOM NUMBER & USER POINTS -->
+		<div class="col-md-6">
+			<div class="jumbotron bank_account">
+  
+  				<h1><u>BANK ACCOUNT</u></h1>
+		
+			</div>
+		</div>
+
+	</div> <!-- ROW 2 CLOSE -->
+
+
+</div> <!-- BOOTSTRAP CONTAINER CLOSE -->
+
+
+
+
+<!-- JQUERY LINK W/ SCRIPT TAG -->
+
+	<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>

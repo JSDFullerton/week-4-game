@@ -1,0 +1,29 @@
+
+body {
+	background-image: url(../images/dwarfs-mine1.jpg);
+	font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.page-header h1 {
+	font-size: 50px;
+	color: white;
+}
+
+.page-header h1 small {
+	color: white;
+	font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.gems img {
+	height: 150px;
+	border: solid;
+	border-color: #f4c712;
+	border-width: 5px;
+
+}
+
+.gems p {
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
